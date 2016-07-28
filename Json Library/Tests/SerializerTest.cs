@@ -1,21 +1,22 @@
 ﻿using System.IO;
 using System.Text;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Json_Library.Tests
 {
+    [TestClass]
     public class SerializerTest
     {
         private Serializer _sut;
 
-        [SetUp]
+        [TestInitialize]
         public void Setup()
         {
             _sut = new Serializer();
 
         }
 
-        [Test]
+        [TestMethod]
         public void DefaultObject()
         {
             var actual = _sut.Serialize(new Person());
@@ -23,7 +24,7 @@ namespace Json_Library.Tests
             Assert.AreEqual(expected, actual);
         }
 
-        [Test]
+        [TestMethod]
         public void ValueIsSet()
         {
             var actual = _sut.Serialize(new Person {Name = "A"});

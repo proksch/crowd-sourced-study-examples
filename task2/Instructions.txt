@@ -1,0 +1,11 @@
+﻿The file PDFMeta.cs contains the code skeleton for this task.
+
+Look into the tests in "test\PDFTest.cs" and implement the getAuthor() method 
+in the "PDFMeta" class accordingly.
+
+You do not have to think about loading the PDF. This is already done by the test initialization.
+The only thing you have to do is to extract the PDF's author and return it in the method.
+
+
+HINTS:
+The author's key in the MetaData Dictionary of the PDF is "Author". 
