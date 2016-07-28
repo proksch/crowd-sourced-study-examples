@@ -1,0 +1,12 @@
+On the right side in the "Solution Explorer" you will see the 
+projects called "task1" and "task2". These are the implementation tasks
+you have to solve for this evaluation.
+
+For further instructions on the specific tasks please read
+the "Instructions.txt" in each task project.
+
+
+Attention:
+Please leave the directory structure as is.
+Please do not google for any solutions.
+Only edit the files you are instructed to.

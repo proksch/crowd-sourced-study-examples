@@ -3,6 +3,7 @@ which can read arbitrary meta data fields.
 
 The tests in "tests\MetaDataReaderTests" show an example usage of the
 "MetaDataReader" class of the file "MetaDataReader.cs". 
+Feel free to add further tests.
 You only have to implement the "ReadEntry" method.
 
 These are the requirements of the method:

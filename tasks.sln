@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task1", "task1\task1.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8F6517C-941E-417D-A04B-D1A05A2AD008}"
 	ProjectSection(SolutionItems) = preProject
-		Instructions.txt = Instructions.txt
+		General Instructions.txt = General Instructions.txt
 	EndProjectSection
 EndProject
 Global
