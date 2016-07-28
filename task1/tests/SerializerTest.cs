@@ -1,8 +1,6 @@
-﻿using System.IO;
-using System.Text;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Json_Library.Tests
+namespace task1.tests
 {
     [TestClass]
     public class SerializerTest

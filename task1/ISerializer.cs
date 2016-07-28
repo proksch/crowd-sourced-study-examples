@@ -1,4 +1,4 @@
-namespace Json_Library
+namespace task1
 {
     /// <summary>
     ///     Interface for the Serializer component.

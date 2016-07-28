@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json Library", "Json Library\Json Library.csproj", "{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task2", "task2\task2.csproj", "{1D4F7D71-C705-4378-8FD3-D562F3027A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task1", "task1\task1.csproj", "{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D4F7D71-C705-4378-8FD3-D562F3027A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D4F7D71-C705-4378-8FD3-D562F3027A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4F7D71-C705-4378-8FD3-D562F3027A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4F7D71-C705-4378-8FD3-D562F3027A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568FEF27-D70A-4CB3-883A-1A2B9C765CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

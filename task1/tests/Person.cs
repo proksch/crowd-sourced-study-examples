@@ -1,4 +1,4 @@
-﻿namespace Json_Library.Tests
+﻿namespace task1.tests
 {
    public  class Person
    {

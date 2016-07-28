@@ -1,0 +1,10 @@
+﻿This task is about implementing a JSON parser for arbitrary objects.
+
+The tests in "tests\SerializerTest" show an example usage of the
+"Serializer" class of the file "Serializer.cs". 
+You only have to implement the "Serialize" method.
+
+These are the requirements of the method:
+
+1. null values should be ignored
+2. there should be no default values, if a value is not present just ignore it

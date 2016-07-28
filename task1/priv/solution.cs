@@ -1,14 +1,15 @@
 ﻿using Newtonsoft.Json;
 
-namespace Json_Library
+namespace task1.priv
 {
-    public class Serializer : ISerializer
+    public class SerializerSolution : ISerializer
     {
         public string Serialize(object p)
         {
             var s = new JsonSerializerSettings
             {
-               NullValueHandling = NullValueHandling.Ignore
+                NullValueHandling = NullValueHandling.Ignore,
+                DefaultValueHandling = DefaultValueHandling.Ignore
             };
             return JsonConvert.SerializeObject(p, s);
         }
