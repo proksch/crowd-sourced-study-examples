@@ -59,15 +59,5 @@ namespace task2.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] task2 {
-            get {
-                object obj = ResourceManager.GetObject("task2", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }

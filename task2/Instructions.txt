@@ -1,11 +1,11 @@
-﻿The file PDFMeta.cs contains the code skeleton for this task.
+﻿This task is about implementing a MetaDataReader for PDF files 
+which can read arbitrary meta data fields.
 
-Look into the tests in "test\PDFTest.cs" and implement the getAuthor() method 
-in the "PDFMeta" class accordingly.
+The tests in "tests\MetaDataReaderTests" show an example usage of the
+"MetaDataReader" class of the file "MetaDataReader.cs". 
+You only have to implement the "ReadEntry" method.
 
-You do not have to think about loading the PDF. This is already done by the test initialization.
-The only thing you have to do is to extract the PDF's author and return it in the method.
+These are the requirements of the method:
 
-
-HINTS:
-The author's key in the MetaData Dictionary of the PDF is "Author". 
+1. return the given meta data field by its name
+2. if the meta data is not present return an empty string
