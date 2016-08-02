@@ -1,9 +1,14 @@
+First click on "ReSharper" in the above navigation and click on "Why is ReSharper disabled?"
+Click then on "Start Evaluation".
+
 On the right side in the "Solution Explorer" you will see the 
 projects called "task1" and "task2". These are the implementation tasks
 you have to solve for this evaluation.
 
 For further instructions on the specific tasks please read
 the "Instructions.txt" in each task project.
+Please also consider the time guidelines for each task. If you
+need longer for one task just skip that one and begin with the next task.
 
 
 Attention:

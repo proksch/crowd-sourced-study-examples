@@ -9,3 +9,5 @@ These are the requirements of the method:
 
 1. null values should be ignored
 2. there should be no default values, if a value is not present just ignore it
+
+Time Guideline: 10 minutes

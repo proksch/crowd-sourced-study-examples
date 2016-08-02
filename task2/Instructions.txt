@@ -10,3 +10,5 @@ These are the requirements of the method:
 
 1. return the given meta data field by its name
 2. if the meta data is not present return an empty string
+
+Time Guideline: 10 minutes
